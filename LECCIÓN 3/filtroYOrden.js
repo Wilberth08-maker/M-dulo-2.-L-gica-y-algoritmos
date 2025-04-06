@@ -25,13 +25,13 @@ productos.sort((a, b) => a.nombre.localeCompare(b.nombre)); // Ordene afabeticam
 // b va después que ba => devuelve 1
 // a son iguales b => devuelve 0
 
-console.log("Nombres ordenados alfabéticamente: ", productos);
+console.log('Nombres ordenados alfabéticamente: ', productos);
 
 // 4. Imprimir solo el nombres de los productos
 
 const nombresProductos = productos.map(producto => producto.nombre)
 
-console.log("Nombres de los productos: ", nombresProductos);
+console.log('Nombres de los productos: ', nombresProductos);
 
 // 5. Sumar el costo total de los productos
 
@@ -43,7 +43,7 @@ console.log(`El costo total de los productos será de $${costoTotal}`);
 
 const electrónica = productos.filter(producto => producto.categoria === 'Electrónica');
 
-console.log("Los productos de categoría Electrónica son: ", electrónica);
+console.log('Los productos de categoría Electrónica son: ', electrónica);
 
 // 7. Verificar si al menos hay un producto de papelería
 

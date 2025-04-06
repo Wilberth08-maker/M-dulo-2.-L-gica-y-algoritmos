@@ -9,7 +9,7 @@ function encontrarPareja(arr) {
 
     while (siguiente < arr.length) {
 
-        // Con map:
+        // Con map():
         const iniciales = invitados.map(inciales => inciales[0]);
 
         if(iniciales[inicio] === iniciales[siguiente]){
