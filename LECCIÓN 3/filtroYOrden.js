@@ -25,13 +25,13 @@ productos.sort((a, b) => a.nombre.localeCompare(b.nombre)); // Ordene afabeticam
 // b va después que ba => devuelve 1
 // a son iguales b => devuelve 0
 
-console.log(productos);
+console.log("Nombres ordenados alfabéticamente: ", productos);
 
 // 4. Imprimir solo el nombres de los productos
 
 const nombresProductos = productos.map(producto => producto.nombre)
 
-console.log(nombresProductos);
+console.log("Nombres de los productos: ", nombresProductos);
 
 // 5. Sumar el costo total de los productos
 
