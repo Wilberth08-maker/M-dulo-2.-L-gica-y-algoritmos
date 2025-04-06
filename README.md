@@ -1,9 +1,19 @@
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----     06/04/2025  11:37 a. m.                LECCIÓN 1
-d-----     20/03/2025  09:49 p. m.                LECCIÓN 2. ARRAYS-ASYNC
-d-----     25/03/2025  08:42 p. m.                LECCIÓN 3
-d-----     27/03/2025  08:59 p. m.                LECCIÓN 4. PUNTEROS
-d-----     01/04/2025  08:32 p. m.                LECCIÓN 5
-d-----     03/04/2025  08:11 p. m.                LECCIÓN 6
-d-----     03/04/2025  08:09 p. m.                LECCIÓN 7
+
+# Wilberth Adair Martínez Puc
+
+## Fecha de creación: Miércoles 05 de febrero del 2025
+
+### Este repositorio tiene como objetivo contener todos los archivos que serán
+### de utilidad para lograr realizar el proyecto final.
+
+### ACTIVIDAD LECCIÓN 1: Martes 18 de marzo del 2025
+### ACTIVIDAD LECCIÓN 2: Jueves 20 de marzo del 2025
+### ACTIVIDAD LECCIÓN 3: Martes 25 de marzo del 2025
+### ACTIVIDAD LECCIÓN 4: Jueves 27 de marzo del 2025
+### ACTIVIDAD LECCIÓN 5: Martes 01 de abril del 2025
+### ACTIVIDAD LECCIÓN 6: Jueves 03 de Abril del 2025
+### ACTIVIDAD LECCIÓN 7: Martes 08 de abril del 2025
+### ACTIVIDAD LECCIÓN 8: Jueves 10 de abril del 2025
+
+
+
