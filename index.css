@@ -10,7 +10,7 @@ body{
     font-family: "Nunito", sans-serif;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(190, 247, 255);
+    background-color: rgb(137, 247, 255);
 }
 
 
@@ -46,7 +46,7 @@ header {
 .lecciones{
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(160, 126, 247);
+    background-color: rgb(250, 183, 38);
     font-size: 20px;
 }
 
