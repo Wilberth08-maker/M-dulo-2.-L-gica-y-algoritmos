@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+    color:aliceblue;
+    padding: 2rem;
+}
+
+#pasos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paso{
+    background-color: rgb(179, 122, 233);
+    padding: 1rem;
+    border-radius: 8px;
+    animation: fadeIn 0.4s ease-in;
+}
+
