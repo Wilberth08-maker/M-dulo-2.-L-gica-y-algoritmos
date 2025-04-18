@@ -31,7 +31,7 @@ function factorial(número){
     
 }
 
-console.log(factorial(3));
+console.log('El factorial de 3 es: ', factorial(3));
 
 // Factorial(5) = 5 * 24 = 120  Entra al stack o a la pila
 // Factorial(4) = 4 * 6 = 24
