@@ -44,12 +44,12 @@ function permutaciones(cadena){
 
         for(let i = 0; i < cadena.length; i++){
 
-            logPaso([...camino], [...usado], `Agrega '${cadena[i]}'`);
-
             if(usado[i]){ 
                   // Si usado en la posición i es true continua a la siguiente letra
                 continue;
             };
+
+            logPaso([...camino], [...usado], `Agrega '${cadena[i]}'`);
 
             
             camino.push(cadena[i]); // Se agrega al arreglo vacio la letra que esta en cadena en la posición i
