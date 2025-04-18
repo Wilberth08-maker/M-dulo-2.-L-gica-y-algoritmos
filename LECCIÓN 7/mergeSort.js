@@ -7,6 +7,7 @@ function merge(left, right){
 
     while(left.length && right.length){
 
+        // Insertar el elemento más pequeño en arrOrdenado
         if(left[0] < right[0]){
 
             arrOrdenado.push(left.shift())
@@ -17,6 +18,7 @@ function merge(left, right){
         }
     }
 
+    // Usar el spread operator para crear un nuevo arreglo, combinando los tres arreglos
     return [...arrOrdenado, ...left, ...right]
 
 }
@@ -27,7 +29,7 @@ function mergeSort(arr){
 
     let mid = Math.floor(arr.length / 2)
 
-    // Llamada recursiva
+    // Llamadas recursivas
     let left = mergeSort(arr.slice(0, mid));
     let right = mergeSort(arr.slice(mid));
 
