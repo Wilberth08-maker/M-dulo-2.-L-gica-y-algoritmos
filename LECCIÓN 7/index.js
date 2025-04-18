@@ -10,7 +10,7 @@ function logPaso(camino, usado, accion){
     const fila = document.createElement('div');
     fila.className = 'paso';
 
-    const usadoTexto = usado.map((valor, i) => `${valor ? 'verdadero' : 'falso'}`).join('');
+    const usadoTexto = usado.map((valor, i) => `${valor ? '✔️' : '❌'}`).join('');
 
     fila.innerHTML = `
     <strong> CAMINO:</strong>   [${camino.join(', ')}]
