@@ -43,5 +43,5 @@ mergeSort(arreglo);
 
 console.log(arreglo);
 
-console.log(mergeSort(arreglo));
+console.log('Arreglo ordenado: ', mergeSort(arreglo));
 
