@@ -20,4 +20,7 @@ function findMax(arr) {
 }
 // Ejemplo de entrada
 const numbers = [3, 8, 2, 10, 5, 7];
+
+console.log(numbers);
+
 console.log('El número máximo del arreglo es: ', findMax(numbers)); // Salida esperada: 10
